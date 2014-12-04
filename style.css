@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    margin-right: 20px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    float: left;
+    border: 1px solid #000;
+}
+
+aside img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+aside small {
+    font-size: 20px;
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+aside small a{
+    text-decoration: none;
+}
+
+aside small a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    margin-left: 420px;
+    border: 1px solid red;
+    position: absolute;
+}
